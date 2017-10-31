@@ -3,7 +3,7 @@
 void main()
 {
 clrscr();
-textcolor(RED);
+textcolor(BLUE);
 cprintf("HELLO");
 getch();
 
