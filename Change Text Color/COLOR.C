@@ -2,11 +2,10 @@
 #include<conio.h>
 void main()
 {
-clrscr();
-textcolor(RED);    //to add color to text
-cprintf("HELLO");  //observe that it is cprintf() and not printf()
+textcolor(RED);    //to add red color to text
+cprintf("HELLO");  //cprintf() and not printf()
 textcolor(BLUE+BLINK);
-cprintf("WORLD"); //to add blinking effect
+cprintf("WORLD"); //add blinking effect
 getch();
 
 
